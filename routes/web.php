@@ -23,3 +23,8 @@ Route::get('/hello', function () {
 Route::get('/Yellow', function () {
     return view('Yellow');
 });
+Route::get('/Ma_Page_test', function () {
+    return view('newPage');
+});
+
+Route::get('/Ma_Page_test', 'HomeT')
